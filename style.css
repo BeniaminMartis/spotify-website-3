@@ -10,27 +10,27 @@ header {
 }
 
 .header-wrapper {
-  /* display: flex; */
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
   margin-left: 366px;
   margin-right: 366px;
-  padding: 0, 15px;
+  /* padding: 0, 15px; */
   font-weight:bolder;
 }
 
-.img-spotify {
+.img-logo {
   padding: 28px 17px;
   cursor: pointer;
 }
 
-.unordered-list-header {
+.ul-list-header {
   list-style: none;
   color: white;
   display: flex;
   align-items: center;
 }
 
-li {
+.li-header {
   padding: 28px 17px;
 }
 
