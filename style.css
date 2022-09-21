@@ -42,3 +42,74 @@ header {
   color: #ffffff;
   text-decoration: none;
 }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.hero-section {
+  background-color:rgb(29, 117, 222);
+  padding:200px;
+  display: flex;
+}
+
+.div-hero {
+  background-color: rgb(29, 117, 222);
+  justify-content: center;
+  align-items: center;
+  padding: 0px 200px;
+  grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+  grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+}
+
+.versiunea-premium-gratuita {
+  color: #ffffff;
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.eur-luna {
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.btn-sa-incepem {
+  border-top: 1px solid #0f000f;
+  background: #000000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+  padding: 11px 22px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  vertical-align: middle;
+  }
+
+.btn-sa-incepem:hover {
+  border-top-color: #000000;
+  background: #000000;
+  color: #ffffff;
+  transform: scale(10px)
+  }
+
+/* .btn-sa-incepem:active {
+  border-top-color: #000000;
+  background: #000000;
+  } */
+
+
+.btn-vezi-abonamentele {
+
+}
+
+.paragraph-hero {
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+.img-om-roz {
+ width: 350px;
+ 
+}
