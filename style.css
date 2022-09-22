@@ -14,7 +14,6 @@ header {
   justify-content: space-between;
   margin-left: 366px;
   margin-right: 366px;
-  /* padding: 0, 15px; */
   font-weight:bolder;
 }
 
@@ -45,17 +44,22 @@ header {
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .hero-section {
   background-color:rgb(29, 117, 222);
-  padding:200px;
+  padding:200px 0;
   display: flex;
+}
+
+.hero-wrapper {
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+  width:1170px;
+  padding: 0 30px;
 }
 
 .div-hero {
   background-color: rgb(29, 117, 222);
   justify-content: center;
   align-items: center;
-  padding: 0px 200px;
-  grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
-  grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
 }
 
 .versiunea-premium-gratuita {
@@ -73,43 +77,87 @@ header {
   padding-bottom: 30px;
 }
 
-.btn-sa-incepem {
-  border-top: 1px solid #0f000f;
-  background: #000000;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+.btn-container {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
   padding: 11px 22px;
-  -webkit-border-radius: 23px;
-  -moz-border-radius: 23px;
-  border-radius: 23px;
+  border-radius: 40px;
   color: #ffffff;
-  font-size: 14px;
   text-decoration: none;
-  vertical-align: middle;
-  }
+  text-transform:uppercase;
+}
 
-.btn-sa-incepem:hover {
-  border-top-color: #000000;
-  background: #000000;
-  color: #ffffff;
-  transform: scale(10px)
-  }
+.btn:focus {
+  outline: 3px solid black;
+  outline-offset: 3px;
+}
 
-/* .btn-sa-incepem:active {
-  border-top-color: #000000;
-  background: #000000;
-  } */
+.btn:hover {
+  transform: scale(1.04);
+}
 
+.btn--incepem {
+background: black;
+}
 
-.btn-vezi-abonamentele {
+.btn--abonamente {
+  border: 2px solid #ffffff;
+}
 
+.btn--abonamente:hover {
+  background: #1A69C7;
 }
 
 .paragraph-hero {
   color: #ffffff;
   padding-top: 30px;
+  font-size: 13px;
 }
 
 .img-om-roz {
- width: 350px;
- 
+ width: 280px;
 }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.white-section {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.div-white {
+  padding: 75px 15px;
+  margin: 0 366.5px;
+}
+.div-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h-one {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  text-transform: bold;
+  padding-bottom: 50px;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-music-img {
+  width: 150px;
+ }
+
+.ul li p {
+  font-size: 16px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
