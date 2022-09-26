@@ -161,3 +161,68 @@ background: black;
   font-size: 16px;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.gray-section {
+  background-color: #efefef;
+}
+
+.div-gray-section{
+  padding: 75px 15px;
+  margin: 0 366.5px;
+} 
+
+.h-one-gray-section {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  text-transform: bold;
+  padding-bottom: 5px;
+}
+
+.h-two-gray-section {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+.four-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 0 4px 0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.div-p-blue {
+  background-color: #0D72EA;
+  display: inline-block;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.four-cards h4 {
+  font-size: 23px;
+  margin-bottom: 0 0 20px;
+  padding: 0 0 5px;
+}
+
+.par-four-card {
+  margin:0 0 20px;
+}
+
+.par-after-hr {
+  margin: 0 0 20px;
+  padding: 0 0 5px;
+}
+
+.btn-sa-incepem {
+  background: black;
+}
